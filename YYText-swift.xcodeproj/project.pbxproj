@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB31BEB283253B400CA9EC5 /* YYHtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31BEA283253B400CA9EC5 /* YYHtmlViewController.swift */; };
+		EEB31BEF28334F8D00CA9EC5 /* YYCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31BEE28334F8D00CA9EC5 /* YYCommentViewController.swift */; };
+		EEB31BF12833868B00CA9EC5 /* YYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31BF02833868B00CA9EC5 /* YYBaseViewController.swift */; };
+		EEB31C4F2835092B00CA9EC5 /* YYWeakTimerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C332835092A00CA9EC5 /* YYWeakTimerProxy.swift */; };
+		EEB31C502835092B00CA9EC5 /* YYTextSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C342835092B00CA9EC5 /* YYTextSelectionView.swift */; };
+		EEB31C512835092B00CA9EC5 /* YYTextRubyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C352835092B00CA9EC5 /* YYTextRubyAnnotation.swift */; };
+		EEB31C522835092B00CA9EC5 /* YYTextKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C362835092B00CA9EC5 /* YYTextKeyboardManager.swift */; };
+		EEB31C532835092B00CA9EC5 /* YYTextAsyncLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C372835092B00CA9EC5 /* YYTextAsyncLayer.swift */; };
+		EEB31C542835092B00CA9EC5 /* YYTextArchiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C382835092B00CA9EC5 /* YYTextArchiver.swift */; };
+		EEB31C552835092B00CA9EC5 /* YYTextAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C392835092B00CA9EC5 /* YYTextAttribute.swift */; };
+		EEB31C562835092B00CA9EC5 /* YYTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3A2835092B00CA9EC5 /* YYTextView.swift */; };
+		EEB31C572835092B00CA9EC5 /* YYTextTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3B2835092B00CA9EC5 /* YYTextTransaction.swift */; };
+		EEB31C582835092B00CA9EC5 /* YYTextMagnifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3C2835092B00CA9EC5 /* YYTextMagnifier.swift */; };
+		EEB31C592835092B00CA9EC5 /* YYTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3D2835092B00CA9EC5 /* YYTextInput.swift */; };
+		EEB31C5A2835092B00CA9EC5 /* YYTextLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3E2835092B00CA9EC5 /* YYTextLayout.swift */; };
+		EEB31C5B2835092B00CA9EC5 /* YYTextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C3F2835092B00CA9EC5 /* YYTextParser.swift */; };
+		EEB31C5C2835092B00CA9EC5 /* YYTextRunDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C402835092B00CA9EC5 /* YYTextRunDelegate.swift */; };
+		EEB31C5D2835092B00CA9EC5 /* YYTextContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C412835092B00CA9EC5 /* YYTextContainerView.swift */; };
+		EEB31C5E2835092B00CA9EC5 /* YYTextUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C422835092B00CA9EC5 /* YYTextUtilities.swift */; };
+		EEB31C5F2835092B00CA9EC5 /* YYTextDebugOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C432835092B00CA9EC5 /* YYTextDebugOption.swift */; };
+		EEB31C602835092B00CA9EC5 /* YYTextEffectWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C442835092B00CA9EC5 /* YYTextEffectWindow.swift */; };
+		EEB31C612835092B00CA9EC5 /* YYTextLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C452835092B00CA9EC5 /* YYTextLine.swift */; };
+		EEB31C622835092B00CA9EC5 /* YYExchangeMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C472835092B00CA9EC5 /* YYExchangeMethod.swift */; };
+		EEB31C632835092B00CA9EC5 /* String+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C482835092B00CA9EC5 /* String+YYAdd.swift */; };
+		EEB31C642835092B00CA9EC5 /* NSAttributedString+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C492835092B00CA9EC5 /* NSAttributedString+YYAdd.swift */; };
+		EEB31C652835092B00CA9EC5 /* YYHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4A2835092B00CA9EC5 /* YYHelper.swift */; };
+		EEB31C662835092B00CA9EC5 /* ParagraphStyle+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4B2835092B00CA9EC5 /* ParagraphStyle+YYAdd.swift */; };
+		EEB31C672835092B00CA9EC5 /* UIPasteboard+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4C2835092B00CA9EC5 /* UIPasteboard+YYAdd.swift */; };
+		EEB31C682835092B00CA9EC5 /* UIView+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4D2835092B00CA9EC5 /* UIView+YYAdd.swift */; };
+		EEB31C692835092B00CA9EC5 /* UIColor+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4E2835092B00CA9EC5 /* UIColor+YYAdd.swift */; };
+		EECCE349282374890003F661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE348282374890003F661 /* AppDelegate.swift */; };
+		EECCE34B282374890003F661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE34A282374890003F661 /* SceneDelegate.swift */; };
+		EECCE34F2823748A0003F661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECCE34E2823748A0003F661 /* Assets.xcassets */; };
+		EECCE3552823748A0003F661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECCE3532823748A0003F661 /* LaunchScreen.storyboard */; };
+		EECCE35D282374A60003F661 /* YYHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE35C282374A60003F661 /* YYHomeTableViewController.swift */; };
+		EECCE37A282374E30003F661 /* YYLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE35F282374E30003F661 /* YYLabel.swift */; };
+		EECCE394282378280003F661 /* YYWeChatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE393282378280003F661 /* YYWeChatController.swift */; };
+		EECCE460282E6AF90003F661 /* YYLimitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE45F282E6AF90003F661 /* YYLimitController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEB31BEA283253B400CA9EC5 /* YYHtmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYHtmlViewController.swift; sourceTree = "<group>"; };
+		EEB31BEE28334F8D00CA9EC5 /* YYCommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYCommentViewController.swift; sourceTree = "<group>"; };
+		EEB31BF02833868B00CA9EC5 /* YYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYBaseViewController.swift; sourceTree = "<group>"; };
+		EEB31C332835092A00CA9EC5 /* YYWeakTimerProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYWeakTimerProxy.swift; sourceTree = "<group>"; };
+		EEB31C342835092B00CA9EC5 /* YYTextSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextSelectionView.swift; sourceTree = "<group>"; };
+		EEB31C352835092B00CA9EC5 /* YYTextRubyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextRubyAnnotation.swift; sourceTree = "<group>"; };
+		EEB31C362835092B00CA9EC5 /* YYTextKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextKeyboardManager.swift; sourceTree = "<group>"; };
+		EEB31C372835092B00CA9EC5 /* YYTextAsyncLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextAsyncLayer.swift; sourceTree = "<group>"; };
+		EEB31C382835092B00CA9EC5 /* YYTextArchiver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextArchiver.swift; sourceTree = "<group>"; };
+		EEB31C392835092B00CA9EC5 /* YYTextAttribute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextAttribute.swift; sourceTree = "<group>"; };
+		EEB31C3A2835092B00CA9EC5 /* YYTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextView.swift; sourceTree = "<group>"; };
+		EEB31C3B2835092B00CA9EC5 /* YYTextTransaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextTransaction.swift; sourceTree = "<group>"; };
+		EEB31C3C2835092B00CA9EC5 /* YYTextMagnifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextMagnifier.swift; sourceTree = "<group>"; };
+		EEB31C3D2835092B00CA9EC5 /* YYTextInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextInput.swift; sourceTree = "<group>"; };
+		EEB31C3E2835092B00CA9EC5 /* YYTextLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextLayout.swift; sourceTree = "<group>"; };
+		EEB31C3F2835092B00CA9EC5 /* YYTextParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextParser.swift; sourceTree = "<group>"; };
+		EEB31C402835092B00CA9EC5 /* YYTextRunDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextRunDelegate.swift; sourceTree = "<group>"; };
+		EEB31C412835092B00CA9EC5 /* YYTextContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextContainerView.swift; sourceTree = "<group>"; };
+		EEB31C422835092B00CA9EC5 /* YYTextUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextUtilities.swift; sourceTree = "<group>"; };
+		EEB31C432835092B00CA9EC5 /* YYTextDebugOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextDebugOption.swift; sourceTree = "<group>"; };
+		EEB31C442835092B00CA9EC5 /* YYTextEffectWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextEffectWindow.swift; sourceTree = "<group>"; };
+		EEB31C452835092B00CA9EC5 /* YYTextLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYTextLine.swift; sourceTree = "<group>"; };
+		EEB31C472835092B00CA9EC5 /* YYExchangeMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYExchangeMethod.swift; sourceTree = "<group>"; };
+		EEB31C482835092B00CA9EC5 /* String+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+YYAdd.swift"; sourceTree = "<group>"; };
+		EEB31C492835092B00CA9EC5 /* NSAttributedString+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+YYAdd.swift"; sourceTree = "<group>"; };
+		EEB31C4A2835092B00CA9EC5 /* YYHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYHelper.swift; sourceTree = "<group>"; };
+		EEB31C4B2835092B00CA9EC5 /* ParagraphStyle+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ParagraphStyle+YYAdd.swift"; sourceTree = "<group>"; };
+		EEB31C4C2835092B00CA9EC5 /* UIPasteboard+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPasteboard+YYAdd.swift"; sourceTree = "<group>"; };
+		EEB31C4D2835092B00CA9EC5 /* UIView+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+YYAdd.swift"; sourceTree = "<group>"; };
+		EEB31C4E2835092B00CA9EC5 /* UIColor+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+YYAdd.swift"; sourceTree = "<group>"; };
+		EECCE345282374890003F661 /* YYText-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYText-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECCE348282374890003F661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EECCE34A282374890003F661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EECCE34E2823748A0003F661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EECCE3542823748A0003F661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EECCE3562823748A0003F661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECCE35C282374A60003F661 /* YYHomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYHomeTableViewController.swift; sourceTree = "<group>"; };
+		EECCE35F282374E30003F661 /* YYLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YYLabel.swift; sourceTree = "<group>"; };
+		EECCE393282378280003F661 /* YYWeChatController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYWeChatController.swift; sourceTree = "<group>"; };
+		EECCE45F282E6AF90003F661 /* YYLimitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYLimitController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECCE342282374890003F661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB31C322835092A00CA9EC5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EEB31C332835092A00CA9EC5 /* YYWeakTimerProxy.swift */,
+				EEB31C342835092B00CA9EC5 /* YYTextSelectionView.swift */,
+				EEB31C352835092B00CA9EC5 /* YYTextRubyAnnotation.swift */,
+				EEB31C362835092B00CA9EC5 /* YYTextKeyboardManager.swift */,
+				EEB31C372835092B00CA9EC5 /* YYTextAsyncLayer.swift */,
+				EEB31C382835092B00CA9EC5 /* YYTextArchiver.swift */,
+				EEB31C392835092B00CA9EC5 /* YYTextAttribute.swift */,
+				EEB31C3A2835092B00CA9EC5 /* YYTextView.swift */,
+				EEB31C3B2835092B00CA9EC5 /* YYTextTransaction.swift */,
+				EEB31C3C2835092B00CA9EC5 /* YYTextMagnifier.swift */,
+				EEB31C3D2835092B00CA9EC5 /* YYTextInput.swift */,
+				EEB31C3E2835092B00CA9EC5 /* YYTextLayout.swift */,
+				EEB31C3F2835092B00CA9EC5 /* YYTextParser.swift */,
+				EEB31C402835092B00CA9EC5 /* YYTextRunDelegate.swift */,
+				EEB31C412835092B00CA9EC5 /* YYTextContainerView.swift */,
+				EEB31C422835092B00CA9EC5 /* YYTextUtilities.swift */,
+				EEB31C432835092B00CA9EC5 /* YYTextDebugOption.swift */,
+				EEB31C442835092B00CA9EC5 /* YYTextEffectWindow.swift */,
+				EEB31C452835092B00CA9EC5 /* YYTextLine.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EEB31C462835092B00CA9EC5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EEB31C472835092B00CA9EC5 /* YYExchangeMethod.swift */,
+				EEB31C482835092B00CA9EC5 /* String+YYAdd.swift */,
+				EEB31C492835092B00CA9EC5 /* NSAttributedString+YYAdd.swift */,
+				EEB31C4A2835092B00CA9EC5 /* YYHelper.swift */,
+				EEB31C4B2835092B00CA9EC5 /* ParagraphStyle+YYAdd.swift */,
+				EEB31C4C2835092B00CA9EC5 /* UIPasteboard+YYAdd.swift */,
+				EEB31C4D2835092B00CA9EC5 /* UIView+YYAdd.swift */,
+				EEB31C4E2835092B00CA9EC5 /* UIColor+YYAdd.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EECCE33C282374890003F661 = {
+			isa = PBXGroup;
+			children = (
+				EECCE347282374890003F661 /* YYText-swift */,
+				EECCE346282374890003F661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECCE346282374890003F661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECCE345282374890003F661 /* YYText-swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECCE347282374890003F661 /* YYText-swift */ = {
+			isa = PBXGroup;
+			children = (
+				EECCE35E282374E30003F661 /* YYText */,
+				EECCE348282374890003F661 /* AppDelegate.swift */,
+				EECCE34A282374890003F661 /* SceneDelegate.swift */,
+				EECCE34E2823748A0003F661 /* Assets.xcassets */,
+				EECCE3532823748A0003F661 /* LaunchScreen.storyboard */,
+				EECCE3562823748A0003F661 /* Info.plist */,
+				EECCE35C282374A60003F661 /* YYHomeTableViewController.swift */,
+				EECCE393282378280003F661 /* YYWeChatController.swift */,
+				EECCE45F282E6AF90003F661 /* YYLimitController.swift */,
+				EEB31BEA283253B400CA9EC5 /* YYHtmlViewController.swift */,
+				EEB31BEE28334F8D00CA9EC5 /* YYCommentViewController.swift */,
+				EEB31BF02833868B00CA9EC5 /* YYBaseViewController.swift */,
+			);
+			path = "YYText-swift";
+			sourceTree = "<group>";
+		};
+		EECCE35E282374E30003F661 /* YYText */ = {
+			isa = PBXGroup;
+			children = (
+				EEB31C322835092A00CA9EC5 /* Core */,
+				EEB31C462835092B00CA9EC5 /* Extensions */,
+				EECCE35F282374E30003F661 /* YYLabel.swift */,
+			);
+			path = YYText;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECCE344282374890003F661 /* YYText-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECCE3592823748A0003F661 /* Build configuration list for PBXNativeTarget "YYText-swift" */;
+			buildPhases = (
+				EECCE341282374890003F661 /* Sources */,
+				EECCE342282374890003F661 /* Frameworks */,
+				EECCE343282374890003F661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYText-swift";
+			productName = "YYText-swift";
+			productReference = EECCE345282374890003F661 /* YYText-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECCE33D282374890003F661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EECCE344282374890003F661 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EECCE340282374890003F661 /* Build configuration list for PBXProject "YYText-swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECCE33C282374890003F661;
+			productRefGroup = EECCE346282374890003F661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECCE344282374890003F661 /* YYText-swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECCE343282374890003F661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECCE3552823748A0003F661 /* LaunchScreen.storyboard in Resources */,
+				EECCE34F2823748A0003F661 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECCE341282374890003F661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB31BF12833868B00CA9EC5 /* YYBaseViewController.swift in Sources */,
+				EEB31C662835092B00CA9EC5 /* ParagraphStyle+YYAdd.swift in Sources */,
+				EEB31C622835092B00CA9EC5 /* YYExchangeMethod.swift in Sources */,
+				EEB31C602835092B00CA9EC5 /* YYTextEffectWindow.swift in Sources */,
+				EEB31C642835092B00CA9EC5 /* NSAttributedString+YYAdd.swift in Sources */,
+				EEB31C692835092B00CA9EC5 /* UIColor+YYAdd.swift in Sources */,
+				EEB31C5D2835092B00CA9EC5 /* YYTextContainerView.swift in Sources */,
+				EECCE349282374890003F661 /* AppDelegate.swift in Sources */,
+				EEB31C5F2835092B00CA9EC5 /* YYTextDebugOption.swift in Sources */,
+				EEB31C582835092B00CA9EC5 /* YYTextMagnifier.swift in Sources */,
+				EEB31C5B2835092B00CA9EC5 /* YYTextParser.swift in Sources */,
+				EEB31C682835092B00CA9EC5 /* UIView+YYAdd.swift in Sources */,
+				EEB31C632835092B00CA9EC5 /* String+YYAdd.swift in Sources */,
+				EEB31C522835092B00CA9EC5 /* YYTextKeyboardManager.swift in Sources */,
+				EEB31C542835092B00CA9EC5 /* YYTextArchiver.swift in Sources */,
+				EECCE34B282374890003F661 /* SceneDelegate.swift in Sources */,
+				EEB31C612835092B00CA9EC5 /* YYTextLine.swift in Sources */,
+				EECCE460282E6AF90003F661 /* YYLimitController.swift in Sources */,
+				EEB31C592835092B00CA9EC5 /* YYTextInput.swift in Sources */,
+				EECCE394282378280003F661 /* YYWeChatController.swift in Sources */,
+				EEB31C5A2835092B00CA9EC5 /* YYTextLayout.swift in Sources */,
+				EEB31C5E2835092B00CA9EC5 /* YYTextUtilities.swift in Sources */,
+				EEB31C672835092B00CA9EC5 /* UIPasteboard+YYAdd.swift in Sources */,
+				EEB31C562835092B00CA9EC5 /* YYTextView.swift in Sources */,
+				EECCE37A282374E30003F661 /* YYLabel.swift in Sources */,
+				EEB31C5C2835092B00CA9EC5 /* YYTextRunDelegate.swift in Sources */,
+				EEB31C572835092B00CA9EC5 /* YYTextTransaction.swift in Sources */,
+				EEB31C532835092B00CA9EC5 /* YYTextAsyncLayer.swift in Sources */,
+				EEB31BEF28334F8D00CA9EC5 /* YYCommentViewController.swift in Sources */,
+				EEB31C502835092B00CA9EC5 /* YYTextSelectionView.swift in Sources */,
+				EEB31C552835092B00CA9EC5 /* YYTextAttribute.swift in Sources */,
+				EEB31C652835092B00CA9EC5 /* YYHelper.swift in Sources */,
+				EECCE35D282374A60003F661 /* YYHomeTableViewController.swift in Sources */,
+				EEB31C512835092B00CA9EC5 /* YYTextRubyAnnotation.swift in Sources */,
+				EEB31C4F2835092B00CA9EC5 /* YYWeakTimerProxy.swift in Sources */,
+				EEB31BEB283253B400CA9EC5 /* YYHtmlViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EECCE3532823748A0003F661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECCE3542823748A0003F661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECCE3572823748A0003F661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EECCE3582823748A0003F661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECCE35A2823748A0003F661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = J3YBD7Y4S8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YYText-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianzhi.jianzhipt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PtAppDev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EECCE35B2823748A0003F661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = J3YBD7Y4S8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "YYText-swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jianzhi.jianzhipt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = PtAppDev;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECCE340282374890003F661 /* Build configuration list for PBXProject "YYText-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECCE3572823748A0003F661 /* Debug */,
+				EECCE3582823748A0003F661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECCE3592823748A0003F661 /* Build configuration list for PBXNativeTarget "YYText-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECCE35A2823748A0003F661 /* Debug */,
+				EECCE35B2823748A0003F661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECCE33D282374890003F661 /* Project object */;
+}
