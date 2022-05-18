@@ -5,7 +5,8 @@
 > 本项目写了**YYTextView仿微信输入高度动态变化**、 **YYTextView限制输入字数**、**YYLabel之Html富文本超链接检测及点击**、**YYLabel之评论盖楼**等四个示例。
 
 
-![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/001.gif)![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/002.gif)![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/003.gif)![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/004.gif)
+![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/001.gif)      ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/002.gif)
+![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/003.gif)      ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/004.gif)
 
 ### 扩展了YYLabel设置Html富文本方法
 ```swift
@@ -94,4 +95,4 @@ func textViewWordCountChange(_ textView: YYTextView, count: Int) {
 }
 ```
 
->  如果帮助到你的话，点一下Star
+>  如果帮助到你的话，点一下**Star**
