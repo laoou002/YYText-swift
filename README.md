@@ -6,6 +6,7 @@
 
 
 ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/001.gif)      ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/002.gif)
+
 ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/003.gif)      ![在这里插入图片描述](https://github.com/laoou002/YYText-swift/blob/main/004.gif)
 
 ### 扩展了YYLabel设置Html富文本方法
