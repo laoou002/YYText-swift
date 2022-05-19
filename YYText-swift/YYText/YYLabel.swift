@@ -808,7 +808,7 @@ open class YYLabel: UIView, YYTextDebugTarget, YYTextAsyncLayerDelegate, NSSecur
     private lazy var attachmentViews = [UIView]()
     private lazy var attachmentLayers = [CALayer]()
     private lazy var highlightRange = NSRange(location: 0, length: 0) ///< current highlight range
-    var highlight: YYTextHighlight? ///< highlight attribute in `_highlightRange`
+    public var highlight: YYTextHighlight? ///< highlight attribute in `_highlightRange`
     private var highlightLayout: YYTextLayout? ///< when _state.showingHighlight=YES, this layout should be displayed
     private var shrinkInnerLayout: YYTextLayout?
     private var shrinkHighlightLayout: YYTextLayout?
