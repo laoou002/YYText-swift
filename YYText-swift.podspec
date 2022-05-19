@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/laoou002/YYText-swift" # 你的主页
   s.source       = { :git => "https://github.com/laoou002/YYText-swift.git", :tag => "#{s.version}" }#你的仓库地址，不能用SSH地址
-  s.source_files  = 'YYText-swift/YYText/*'
+  s.source_files  = 'YYText-swift/YYText/*.swift', 'YYText-swift/YYText/*/*.swift'
   s.platform     = :ios, "13.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
   
