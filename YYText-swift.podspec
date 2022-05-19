@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "YYText-swift" # 项目名称
-  s.version      = "1.0.1"        # 版本号, 即标签号
+  s.version      = "1.0.2"        # 版本号, 即标签号
   s.swift_versions      = "5.0"
   s.license      = "MIT"   # 开源证书
   s.summary      = "致敬YYText的作者，YYText的Swift版本" # 项目简介
