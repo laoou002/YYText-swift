@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
   s.source_files  = 'YYText-swift/YYText/*.swift', 'YYText-swift/YYText/*/*.swift'
   s.platform     = :ios, "13.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
-  spec.requires_arc = true
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  s.requires_arc = true
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   # User
   s.author             = { "ouyongheng" => "976187247@qq.com" } # 作者信息
 
