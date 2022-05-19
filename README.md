@@ -96,4 +96,27 @@ func textViewWordCountChange(_ textView: YYTextView, count: Int) {
 }
 ```
 
+# 安装
+
+### CocoaPods
+
+1. 在 Podfile 中添加 `pod 'YYText-swift'`。
+
+   ```
+   source 'https://github.com/CocoaPods/Specs.git'
+   platform :ios, '13.0'
+   use_frameworks!
+   
+   target 'MyApp' do
+     # your other pod
+     # ...
+     pod 'YYText-swift'
+   end
+   
+   ```
+
+2. 执行 `pod install` 或 `pod update`。
+
+3. 导入模块 `import YYText_swift`
+
 >  如果帮助到你的话，点一下**Star**
