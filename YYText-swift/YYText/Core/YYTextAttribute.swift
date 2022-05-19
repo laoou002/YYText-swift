@@ -99,7 +99,7 @@ import CoreText
  @param range         The text range in `text` (if no range, the range.location is NSNotFound).
  @param rect          The text frame in `containerView` (if no data, the rect is CGRectNull).
  */
-typealias TextAction = (UIView?, NSAttributedString?, NSRange, CGRect) -> Void
+public typealias TextAction = (UIView?, NSAttributedString?, NSRange, CGRect) -> Void
 
 
 public class YYTextAttribute: NSObject {
@@ -735,9 +735,9 @@ public class YYTextHighlight: NSObject, NSCoding, NSCopying, NSSecureCoding {
      Tap action when user tap the highlight, default is nil.
      If the value is nil, TextView or Label will ask it's delegate to handle the tap action.
      */
-    var tapAction: (TextAction)?
+    public var tapAction: (TextAction)?
     @discardableResult
-    func yy_tapAction(_ handler: @escaping TextAction) -> Self {
+    public func yy_tapAction(_ handler: @escaping TextAction) -> Self {
         tapAction = handler
         return self
     }
@@ -746,8 +746,8 @@ public class YYTextHighlight: NSObject, NSCoding, NSCopying, NSSecureCoding {
      Long press action when user long press the highlight, default is nil.
      If the value is nil, TextView or Label will ask it's delegate to handle the long press action.
      */
-    var longPressAction: (TextAction)?
-    func yy_longPressAction(_ handler: @escaping TextAction) -> Self {
+    public var longPressAction: (TextAction)?
+    public func yy_longPressAction(_ handler: @escaping TextAction) -> Self {
         longPressAction = handler
         return self
     }

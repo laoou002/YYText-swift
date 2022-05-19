@@ -17,7 +17,7 @@ protocol YYLoad: Any {
 }
 
 extension UIViewController:YYLoad {
-    static func runOnce() {
+    public static func runOnce() {
         /// 这里写了两个示例给大伙看
         YYExchangeMethod(self, #selector(viewWillAppear(_:)), #selector(yy_viewWillAppear(_:)))
         

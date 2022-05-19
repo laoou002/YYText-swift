@@ -2481,7 +2481,7 @@ extension NSMutableAttributedString {
      @param longPressAction long press action when user long press the highlight (pass nil to ignore)
      */
     @objc(yy_setYYTextHighlightRange:color:backgroundColor:userInfo:tapAction:longPress:)
-    func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, userInfo: [AnyHashable : Any]?, tapAction action: TextAction?, longPress longPressAction: TextAction?) {
+    public func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, userInfo: [AnyHashable : Any]?, tapAction action: TextAction?, longPress longPressAction: TextAction?) {
         
         let highlight = YYTextHighlight.highlight(with: backgroundColor)
         highlight.userInfo = userInfo as NSDictionary?
@@ -2502,7 +2502,7 @@ extension NSMutableAttributedString {
      @param action          tap action when user tap the highlight (pass nil to ignore)
      */
     @objc(yy_setYYTextHighlightRange:color:backgroundColor:tapAction:)
-    func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, tapAction action: TextAction?) {
+    public func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, tapAction action: TextAction?) {
         yy_set(textHighlightRange: range, color: color, backgroundColor: backgroundColor, userInfo: nil, tapAction: action, longPress: nil)
     }
     
@@ -2515,7 +2515,7 @@ extension NSMutableAttributedString {
      @param userInfo        tap action when user tap the highlight (pass nil to ignore)
      */
     @objc(yy_setYYTextHighlightRange:color:backgroundColor:userInfo:)
-    func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, userInfo: [AnyHashable : Any]?) {
+    public func yy_set(textHighlightRange range: NSRange, color: UIColor?, backgroundColor: UIColor?, userInfo: [AnyHashable : Any]?) {
         yy_set(textHighlightRange: range, color: color, backgroundColor: backgroundColor, userInfo: userInfo, tapAction: nil, longPress: nil)
     }
     

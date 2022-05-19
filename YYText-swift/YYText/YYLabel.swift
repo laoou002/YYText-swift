@@ -663,9 +663,9 @@ open class YYLabel: UIView, YYTextDebugTarget, YYTextAsyncLayerDelegate, NSSecur
      When user tap the YYLabel, this action will be called (similar to tap gesture).
      The default value is nil.
      */
-    var textTapAction: TextAction?
+    public var textTapAction: TextAction?
     @discardableResult
-    func yy_textTapAction(_ handler: @escaping TextAction) -> Self {
+    public func yy_textTapAction(_ handler: @escaping TextAction) -> Self {
         textTapAction = handler
         return self
     }
@@ -674,9 +674,9 @@ open class YYLabel: UIView, YYTextDebugTarget, YYTextAsyncLayerDelegate, NSSecur
      When user long press the YYLabel, this action will be called (similar to long press gesture).
      The default value is nil.
      */
-    var textLongPressAction: TextAction?
+    public var textLongPressAction: TextAction?
     @discardableResult
-    func yy_textLongPressAction(_ handler: @escaping TextAction) -> Self {
+    public func yy_textLongPressAction(_ handler: @escaping TextAction) -> Self {
         textLongPressAction = handler
         return self
     }
@@ -685,9 +685,9 @@ open class YYLabel: UIView, YYTextDebugTarget, YYTextAsyncLayerDelegate, NSSecur
      When user tap the highlight range of text, this action will be called.
      The default value is nil.
      */
-    var highlightTapAction: TextAction?
+    public var highlightTapAction: TextAction?
     @discardableResult
-    func yy_highlightTapAction(_ handler: @escaping TextAction) -> Self {
+    public func yy_highlightTapAction(_ handler: @escaping TextAction) -> Self {
         highlightTapAction = handler
         return self
     }
@@ -696,9 +696,9 @@ open class YYLabel: UIView, YYTextDebugTarget, YYTextAsyncLayerDelegate, NSSecur
      When user long press the highlight range of text, this action will be called.
      The default value is nil.
      */
-    var highlightLongPressAction: TextAction?
+    public var highlightLongPressAction: TextAction?
     @discardableResult
-    func yy_highlightLongPressAction(_ handler: @escaping TextAction) -> Self {
+    public func yy_highlightLongPressAction(_ handler: @escaping TextAction) -> Self {
         highlightLongPressAction = handler
         return self
     }
@@ -1627,7 +1627,7 @@ extension YYLabel {
      *  由于html转换属于耗时超时操作，异步后台处理
      *  假如是列表，转换完成后再刷新对应的Cell，否则会照成滚动卡顿
      */
-    func yy_setHtmlAttributedString(text: String, font: UIFont, lineSpacing: CGFloat, color: UIColor = .black, linkColor: UIColor = .blue, alignment: NSTextAlignment? = nil, completion: ((NSMutableAttributedString?, Bool) -> Void)? = nil) {
+    public func yy_setHtmlAttributedString(text: String, font: UIFont, lineSpacing: CGFloat, color: UIColor = .black, linkColor: UIColor = .blue, alignment: NSTextAlignment? = nil, completion: ((NSMutableAttributedString?, Bool) -> Void)? = nil) {
         let defAttri = NSMutableAttributedString(string: text)
         defAttri.yy_color = color
         defAttri.yy_font = font

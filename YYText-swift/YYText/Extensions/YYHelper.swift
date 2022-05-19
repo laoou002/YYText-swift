@@ -39,17 +39,17 @@ public let YYiPhoneXSafeTop = 44.0
 public let YYiPhoneXSafeBottom = 34.0
 
 /// App状态栏的高度
-var YYStatusBarHeight: CGFloat {
+public var YYStatusBarHeight: CGFloat {
     return YYiPhoneX() ? 40.0 : 20
 }
 
 /// App导航栏高度，包含状态栏(20/44)
-var YYNavigatioHeight: CGFloat {
+public var YYNavigatioHeight: CGFloat {
     return YYiPhoneX() ? 88.0 : 64.0
 }
 
 /// App`TabBar`的高度
-var YYTabBarHeight: CGFloat {
+public var YYTabBarHeight: CGFloat {
     return YYiPhoneX() ? 83.0 : 49.0
 }
 
