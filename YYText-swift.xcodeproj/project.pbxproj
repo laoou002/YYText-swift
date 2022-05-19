@@ -37,7 +37,6 @@
 		EEB31C672835092B00CA9EC5 /* UIPasteboard+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4C2835092B00CA9EC5 /* UIPasteboard+YYAdd.swift */; };
 		EEB31C682835092B00CA9EC5 /* UIView+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4D2835092B00CA9EC5 /* UIView+YYAdd.swift */; };
 		EEB31C692835092B00CA9EC5 /* UIColor+YYAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C4E2835092B00CA9EC5 /* UIColor+YYAdd.swift */; };
-		EEB31C6C28350DEF00CA9EC5 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB31C6B28350DEF00CA9EC5 /* Test.swift */; };
 		EECCE349282374890003F661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE348282374890003F661 /* AppDelegate.swift */; };
 		EECCE34B282374890003F661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECCE34A282374890003F661 /* SceneDelegate.swift */; };
 		EECCE34F2823748A0003F661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECCE34E2823748A0003F661 /* Assets.xcassets */; };
@@ -79,7 +78,6 @@
 		EEB31C4C2835092B00CA9EC5 /* UIPasteboard+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIPasteboard+YYAdd.swift"; sourceTree = "<group>"; };
 		EEB31C4D2835092B00CA9EC5 /* UIView+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+YYAdd.swift"; sourceTree = "<group>"; };
 		EEB31C4E2835092B00CA9EC5 /* UIColor+YYAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+YYAdd.swift"; sourceTree = "<group>"; };
-		EEB31C6B28350DEF00CA9EC5 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		EECCE345282374890003F661 /* YYText-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YYText-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECCE348282374890003F661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EECCE34A282374890003F661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,14 +142,6 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		EEB31C6A28350DE300CA9EC5 /* Test */ = {
-			isa = PBXGroup;
-			children = (
-				EEB31C6B28350DEF00CA9EC5 /* Test.swift */,
-			);
-			path = Test;
-			sourceTree = "<group>";
-		};
 		EECCE33C282374890003F661 = {
 			isa = PBXGroup;
 			children = (
@@ -171,7 +161,6 @@
 		EECCE347282374890003F661 /* YYText-swift */ = {
 			isa = PBXGroup;
 			children = (
-				EEB31C6A28350DE300CA9EC5 /* Test */,
 				EECCE35E282374E30003F661 /* YYText */,
 				EECCE348282374890003F661 /* AppDelegate.swift */,
 				EECCE34A282374890003F661 /* SceneDelegate.swift */,
@@ -292,7 +281,6 @@
 				EEB31C672835092B00CA9EC5 /* UIPasteboard+YYAdd.swift in Sources */,
 				EEB31C562835092B00CA9EC5 /* YYTextView.swift in Sources */,
 				EECCE37A282374E30003F661 /* YYLabel.swift in Sources */,
-				EEB31C6C28350DEF00CA9EC5 /* Test.swift in Sources */,
 				EEB31C5C2835092B00CA9EC5 /* YYTextRunDelegate.swift in Sources */,
 				EEB31C572835092B00CA9EC5 /* YYTextTransaction.swift in Sources */,
 				EEB31C532835092B00CA9EC5 /* YYTextAsyncLayer.swift in Sources */,

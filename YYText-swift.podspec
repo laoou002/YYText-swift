@@ -7,7 +7,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "YYText-swift" # 项目名称
-  s.version      = "1.0"        # 版本号
+  s.version      = "1.0.1"        # 版本号, 即标签号
   s.swift_versions      = "5.0"
   s.license      = "MIT"   # 开源证书
   s.summary      = "致敬YYText的作者，YYText的Swift版本" # 项目简介
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
   s.source_files  = 'YYText-swift/YYText/*.swift', 'YYText-swift/YYText/*/*.swift'
   s.platform     = :ios, "13.0" #平台及支持的最低版本
   s.frameworks   = "UIKit", "Foundation" #支持的框架
-  
+  spec.requires_arc = true
+  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   # User
   s.author             = { "ouyongheng" => "976187247@qq.com" } # 作者信息
 
