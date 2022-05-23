@@ -12,7 +12,7 @@ import UIKit
  *  项目中需要做方法交互的扩展，统一在这个类处理，方便管理
  */
 
-protocol YYLoad: Any {
+public protocol YYLoad: Any {
     static func runOnce()
 }
 
